@@ -1,0 +1,5727 @@
+{
+  "Input| BS| RB": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      "Cho vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      -21.01896,
+      -21.01896,
+      -21.01896,
+      -21.01896
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      -21.01896,
+      -21.01896,
+      -21.01896,
+      -21.01896
+    ],
+    "29": [
+      "TPCP",
+      -14.01264,
+      -14.01264,
+      -14.01264,
+      -14.01264
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      -7.00632,
+      -7.00632,
+      -7.00632,
+      -7.00632
+    ],
+    "32": [
+      "HTM",
+      -7.00632,
+      -7.00632,
+      -7.00632,
+      -7.00632
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      -7.00632,
+      -7.00632,
+      -7.00632,
+      -7.00632
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      -21.01896,
+      -21.01896,
+      -21.01896,
+      -21.01896
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      57432.506949999995,
+      57432.506949999995,
+      57432.506949999995,
+      57432.506949999995
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      57432.506949999995,
+      57432.506949999995,
+      57432.506949999995,
+      57432.506949999995
+    ],
+    "50": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      -554.6537900000001,
+      -554.6537900000001,
+      -554.6537900000001,
+      -554.6537900000001
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      -540.64115,
+      -540.64115,
+      -540.64115,
+      -540.64115
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      -540.64115,
+      -540.64115,
+      -540.64115,
+      -540.64115
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      -14.01264,
+      -14.01264,
+      -14.01264,
+      -14.01264
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      -14.01264,
+      -14.01264,
+      -14.01264,
+      -14.01264
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      56877.85316,
+      56877.85316,
+      56877.85316,
+      56877.85316
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      3820.50795,
+      3820.50795,
+      3820.50795,
+      3820.50795
+    ],
+    "72": [
+      "Các khoản phải thu",
+      2753.10275,
+      2753.10275,
+      2753.10275,
+      2753.10275
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      725.045,
+      725.045,
+      725.045,
+      725.045
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      354.275,
+      354.275,
+      354.275,
+      354.275
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      -11.9148,
+      -11.9148,
+      -11.9148,
+      -11.9148
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      3820.50795,
+      3820.50795,
+      3820.50795,
+      3820.50795
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      60677.34215,
+      60677.34215,
+      60677.34215,
+      60677.34215
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      104783.787,
+      104783.787,
+      104783.787,
+      104783.787
+    ],
+    "83": [
+      "CASA",
+      13007.314799999998,
+      13007.314799999998,
+      13007.314799999998,
+      13007.314799999998
+    ],
+    "84": [
+      "Term deposit",
+      91776.4722,
+      91776.4722,
+      91776.4722,
+      91776.4722
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005
+    ],
+    "88": [
+      "Vốn ủy thác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      110284.6384,
+      110284.6384,
+      110284.6384,
+      110284.6384
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      1659.1398,
+      1659.1398,
+      1659.1398,
+      1659.1398
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      1288.9197,
+      1288.9197,
+      1288.9197,
+      1288.9197
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      1.3992,
+      1.3992,
+      1.3992,
+      1.3992
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      368.82089999999994,
+      368.82089999999994,
+      368.82089999999994,
+      368.82089999999994
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      1659.1398,
+      1659.1398,
+      1659.1398,
+      1659.1398
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      111943.7782,
+      111943.7782,
+      111943.7782,
+      111943.7782
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      1117.36425,
+      2529.313319100581,
+      2577.8963150519976,
+      2626.4793110034148
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      1117.36425,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      2529.313319100581,
+      2577.8963150519976,
+      2626.4793110034148
+    ],
+    "117": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      1117.36425,
+      2529.313319100581,
+      2577.8963150519976,
+      2626.4793110034148
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      113061.14245,
+      114473.09151910058,
+      114521.674515052,
+      114570.25751100341
+    ]
+  },
+  "Input| BS| CMB": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      "Cho vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      -15.83572,
+      -15.83572,
+      -15.83572,
+      -15.83572
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      -15.83572,
+      -15.83572,
+      -15.83572,
+      -15.83572
+    ],
+    "29": [
+      "TPCP",
+      -10.58098,
+      -10.58098,
+      -10.58098,
+      -10.58098
+    ],
+    "30": [
+      "Trading",
+      -0.0715,
+      -0.0715,
+      -0.0715,
+      -0.0715
+    ],
+    "31": [
+      "AFS",
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001
+    ],
+    "32": [
+      "HTM",
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001,
+      -5.254740000000001
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      -15.83572,
+      -15.83572,
+      -15.83572,
+      -15.83572
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      72193.946,
+      72193.946,
+      72193.946,
+      72193.946
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      65637.1508,
+      65637.1508,
+      65637.1508,
+      65637.1508
+    ],
+    "50": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      6556.7952000000005,
+      6556.7952000000005,
+      6556.7952000000005,
+      6556.7952000000005
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      -628.45658,
+      -628.45658,
+      -628.45658,
+      -628.45658
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      -617.8756,
+      -617.8756,
+      -617.8756,
+      -617.8756
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      -617.8756,
+      -617.8756,
+      -617.8756,
+      -617.8756
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      -10.58098,
+      -10.58098,
+      -10.58098,
+      -10.58098
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      -10.580980000000002,
+      -10.580980000000002,
+      -10.580980000000002,
+      -10.580980000000002
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      71565.48942,
+      71565.48942,
+      71565.48942,
+      71565.48942
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      3057.995,
+      3057.995,
+      3057.995,
+      3057.995
+    ],
+    "72": [
+      "Các khoản phải thu",
+      2202.4822000000004,
+      2202.4822000000004,
+      2202.4822000000004,
+      2202.4822000000004
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      580.036,
+      580.036,
+      580.036,
+      580.036
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      283.42,
+      283.42,
+      283.42,
+      283.42
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      -7.943200000000001,
+      -7.943200000000001,
+      -7.943200000000001,
+      -7.943200000000001
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      3057.995,
+      3057.995,
+      3057.995,
+      3057.995
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      74607.6487,
+      74607.6487,
+      74607.6487,
+      74607.6487
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      52391.8935,
+      52391.8935,
+      52391.8935,
+      52391.8935
+    ],
+    "83": [
+      "CASA",
+      6503.657399999999,
+      6503.657399999999,
+      6503.657399999999,
+      6503.657399999999
+    ],
+    "84": [
+      "Term deposit",
+      45888.2361,
+      45888.2361,
+      45888.2361,
+      45888.2361
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      5500.8514,
+      5500.8514,
+      5500.8514,
+      5500.8514
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005,
+      5500.8514000000005
+    ],
+    "88": [
+      "Vốn ủy thác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      57892.7449,
+      57892.7449,
+      57892.7449,
+      57892.7449
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      1106.0932,
+      1106.0932,
+      1106.0932,
+      1106.0932
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      859.2798,
+      859.2798,
+      859.2798,
+      859.2798
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0.9328000000000001,
+      0.9328000000000001,
+      0.9328000000000001,
+      0.9328000000000001
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      245.88060000000002,
+      245.88060000000002,
+      245.88060000000002,
+      245.88060000000002
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      1106.0932,
+      1106.0932,
+      1106.0932,
+      1106.0932
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      58998.8381,
+      58998.8381,
+      58998.8381,
+      58998.8381
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      1117.36425,
+      0,
+      0,
+      0
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      1117.36425,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      0,
+      0,
+      0
+    ],
+    "117": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      1117.36425,
+      0,
+      0,
+      0
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      60116.20235,
+      58998.8381,
+      58998.8381,
+      58998.8381
+    ]
+  },
+  "Input| BS| IB": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      "Cho vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "29": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "32": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      911.68,
+      911.68,
+      911.68,
+      911.68
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "50": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      911.68,
+      911.68,
+      911.68,
+      911.68
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      911.68,
+      911.68,
+      911.68,
+      911.68
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      766.48455,
+      766.48455,
+      766.48455,
+      766.48455
+    ],
+    "72": [
+      "Các khoản phải thu",
+      550.6205500000001,
+      550.6205500000001,
+      550.6205500000001,
+      550.6205500000001
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      145.009,
+      145.009,
+      145.009,
+      145.009
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      70.855,
+      70.855,
+      70.855,
+      70.855
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      766.48455,
+      766.48455,
+      766.48455,
+      766.48455
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      1678.16455,
+      1678.16455,
+      1678.16455,
+      1678.16455
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "83": [
+      "CASA",
+      0,
+      0,
+      0,
+      0
+    ],
+    "84": [
+      "Term deposit",
+      0,
+      0,
+      0,
+      0
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      0,
+      0,
+      0,
+      0
+    ],
+    "88": [
+      "Vốn ủy thác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      0,
+      0,
+      0,
+      0
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0,
+      0,
+      0,
+      0
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      89.38914,
+      0,
+      0,
+      0
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      89.38914,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      0,
+      0,
+      0
+    ],
+    "117": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      89.38914,
+      0,
+      0,
+      0
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      89.38914,
+      0,
+      0,
+      0
+    ]
+  },
+  "Input| BS| TT Thẻ": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      "Cho vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "29": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "32": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      8204.64385,
+      8204.64385,
+      8204.64385,
+      8204.64385
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      8204.64385,
+      8204.64385,
+      8204.64385,
+      8204.64385
+    ],
+    "50": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      -77.23445,
+      -77.23445,
+      -77.23445,
+      -77.23445
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      -77.23445,
+      -77.23445,
+      -77.23445,
+      -77.23445
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      -77.23445,
+      -77.23445,
+      -77.23445,
+      -77.23445
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      8127.4094,
+      8127.4094,
+      8127.4094,
+      8127.4094
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      766.48455,
+      766.48455,
+      766.48455,
+      766.48455
+    ],
+    "72": [
+      "Các khoản phải thu",
+      550.6205500000001,
+      550.6205500000001,
+      550.6205500000001,
+      550.6205500000001
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      145.009,
+      145.009,
+      145.009,
+      145.009
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      70.855,
+      70.855,
+      70.855,
+      70.855
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      766.48455,
+      766.48455,
+      766.48455,
+      766.48455
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      8893.89395,
+      8893.89395,
+      8893.89395,
+      8893.89395
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "83": [
+      "CASA",
+      0,
+      0,
+      0,
+      0
+    ],
+    "84": [
+      "Term deposit",
+      0,
+      0,
+      0,
+      0
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      0,
+      0,
+      0,
+      0
+    ],
+    "88": [
+      "Vốn ủy thác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      0,
+      0,
+      0,
+      0
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0,
+      0,
+      0,
+      0
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      89.38914,
+      270.1663859,
+      274.2116933,
+      278.2570007
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      89.38914,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      270.16638586137094,
+      274.2116933047367,
+      278.25700074810237
+    ],
+    "117": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      89.38914,
+      270.1663859,
+      274.2116933,
+      278.2570007
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      89.38914,
+      270.1663859,
+      274.2116933,
+      278.2570007
+    ]
+  },
+  "Input | BS| CIB": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      30,
+      30,
+      30,
+      30
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      "Cho vay TCTD",
+      30,
+      30,
+      30,
+      30
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      30,
+      30,
+      30,
+      30
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      -5.25474,
+      -5.25474,
+      -5.25474,
+      -5.25474
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      -5.25474,
+      -5.25474,
+      -5.25474,
+      -5.25474
+    ],
+    "29": [
+      "TPCP",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "32": [
+      "HTM",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      -5.25474,
+      -5.25474,
+      -5.25474,
+      -5.25474
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      34799.654200000004,
+      34799.654200000004,
+      34799.654200000004,
+      34799.654200000004
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      32818.5754,
+      32818.5754,
+      32818.5754,
+      32818.5754
+    ],
+    "50": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      1981.0788,
+      1981.0788,
+      1981.0788,
+      1981.0788
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      -312.44096,
+      -312.44096,
+      -312.44096,
+      -312.44096
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      -308.9378,
+      -308.9378,
+      -308.9378,
+      -308.9378
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      -308.9378,
+      -308.9378,
+      -308.9378,
+      -308.9378
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      34487.21324,
+      34487.21324,
+      34487.21324,
+      34487.21324
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      2291.51045,
+      2291.51045,
+      2291.51045,
+      2291.51045
+    ],
+    "72": [
+      "Các khoản phải thu",
+      1651.8616499999998,
+      1651.8616499999998,
+      1651.8616499999998,
+      1651.8616499999998
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      435.027,
+      435.027,
+      435.027,
+      435.027
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      212.565,
+      212.565,
+      212.565,
+      212.565
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      -7.943200000000001,
+      -7.943200000000001,
+      -7.943200000000001,
+      -7.943200000000001
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      2291.51045,
+      2291.51045,
+      2291.51045,
+      2291.51045
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      36803.46895,
+      36803.46895,
+      36803.46895,
+      36803.46895
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      17463.9645,
+      17463.9645,
+      17463.9645,
+      17463.9645
+    ],
+    "83": [
+      "CASA",
+      2167.8858000000005,
+      2167.8858000000005,
+      2167.8858000000005,
+      2167.8858000000005
+    ],
+    "84": [
+      "Term deposit",
+      15296.078699999998,
+      15296.078699999998,
+      15296.078699999998,
+      15296.078699999998
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      2750.4257,
+      2750.4257,
+      2750.4257,
+      2750.4257
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      2750.4257000000002,
+      2750.4257000000002,
+      2750.4257000000002,
+      2750.4257000000002
+    ],
+    "88": [
+      "Vốn ủy thác",
+      3037.163,
+      3037.163,
+      3037.163,
+      3037.163
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      23251.5532,
+      23251.5532,
+      23251.5532,
+      23251.5532
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      0,
+      0,
+      0,
+      0
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      1106.0932,
+      1106.0932,
+      1106.0932,
+      1106.0932
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      859.2798,
+      859.2798,
+      859.2798,
+      859.2798
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0.9328000000000001,
+      0.9328000000000001,
+      0.9328000000000001,
+      0.9328000000000001
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      245.88060000000002,
+      245.88060000000002,
+      245.88060000000002,
+      245.88060000000002
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      1106.0932,
+      1106.0932,
+      1106.0932,
+      1106.0932
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      24357.6464,
+      24357.6464,
+      24357.6464,
+      24357.6464
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      715.11312,
+      692.1889651,
+      1047.213733,
+      693.3276784
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      715.11312,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      692.1889650724763,
+      1047.2137331234812,
+      693.3276784349995
+    ],
+    "117": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      715.11312,
+      692.1889651,
+      1047.213733,
+      693.3276784
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      25072.75952,
+      25049.83537,
+      25404.86013,
+      25050.97408
+    ]
+  },
+  "Input| BS| Treasury": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      17841.154,
+      17841.154,
+      17841.154,
+      17841.154
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      17721.154,
+      17721.154,
+      17721.154,
+      17721.154
+    ],
+    "9": [
+      "Cho vay TCTD",
+      120,
+      120,
+      120,
+      120
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      0,
+      0,
+      0,
+      0
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      17841.154,
+      17841.154,
+      17841.154,
+      17841.154
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      37336.7736,
+      37336.7736,
+      37336.7736,
+      37336.7736
+    ],
+    "14": [
+      "TPCP",
+      17378.0116,
+      17378.0116,
+      17378.0116,
+      17378.0116
+    ],
+    "15": [
+      "Trading",
+      2808.096,
+      2808.096,
+      2808.096,
+      2808.096
+    ],
+    "16": [
+      "AFS",
+      9481.536,
+      9481.536,
+      9481.536,
+      9481.536
+    ],
+    "17": [
+      "HTM",
+      5088.3796,
+      5088.3796,
+      5088.3796,
+      5088.3796
+    ],
+    "18": [
+      "TP TCTD",
+      19958.762,
+      19958.762,
+      19958.762,
+      19958.762
+    ],
+    "19": [
+      "Trading",
+      9973.167,
+      9973.167,
+      9973.167,
+      9973.167
+    ],
+    "20": [
+      "AFS",
+      5624.974200000001,
+      5624.974200000001,
+      5624.974200000001,
+      5624.974200000001
+    ],
+    "21": [
+      "HTM",
+      4360.6208,
+      4360.6208,
+      4360.6208,
+      4360.6208
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "24": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "25": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "26": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "27": [
+      "Dự phòng",
+      -5.25474,
+      -5.25474,
+      -5.25474,
+      -5.25474
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      -5.25474,
+      -5.25474,
+      -5.25474,
+      -5.25474
+    ],
+    "29": [
+      "TPCP",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "32": [
+      "HTM",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "35": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "36": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      -1.75158,
+      -1.75158,
+      -1.75158,
+      -1.75158
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "40": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "41": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      null,
+      null,
+      null,
+      null
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      37331.51886,
+      37331.51886,
+      37331.51886,
+      37331.51886
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "50": [
+      "N1",
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      "NQH",
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      -3.50316,
+      -3.50316,
+      -3.50316,
+      -3.50316
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh và cam kết FX",
+      0,
+      0,
+      0,
+      0
+    ],
+    "64": [
+      "Tài sản cố định",
+      0,
+      0,
+      0,
+      0
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "66": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "67": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      0,
+      0,
+      0,
+      0
+    ],
+    "69": [
+      "Nguyên giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "70": [
+      "Khấu hao",
+      0,
+      0,
+      0,
+      0
+    ],
+    "71": [
+      "Tài sản có khác ",
+      1528.9975,
+      1528.9975,
+      1528.9975,
+      1528.9975
+    ],
+    "72": [
+      "Các khoản phải thu",
+      1101.2411000000002,
+      1101.2411000000002,
+      1101.2411000000002,
+      1101.2411000000002
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      290.018,
+      290.018,
+      290.018,
+      290.018
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      141.71,
+      141.71,
+      141.71,
+      141.71
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      -3.9716000000000005,
+      -3.9716000000000005,
+      -3.9716000000000005,
+      -3.9716000000000005
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      1528.9975,
+      1528.9975,
+      1528.9975,
+      1528.9975
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      56698.1672,
+      56698.1672,
+      56698.1672,
+      56698.1672
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "83": [
+      "CASA",
+      0,
+      0,
+      0,
+      0
+    ],
+    "84": [
+      "TD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      0,
+      0,
+      0,
+      0
+    ],
+    "88": [
+      "Vốn ủy thác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      29478.8888,
+      29478.8888,
+      29478.8888,
+      29478.8888
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      15883.3664,
+      15883.3664,
+      15883.3664,
+      15883.3664
+    ],
+    "93": [
+      "KKH",
+      0,
+      0,
+      0,
+      0
+    ],
+    "94": [
+      "CKH",
+      15883.3664,
+      15883.3664,
+      15883.3664,
+      15883.3664
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      13595.5224,
+      13595.5224,
+      13595.5224,
+      13595.5224
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh và cam kết FX",
+      100.2725,
+      100.2725,
+      100.2725,
+      100.2725
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      553.0466,
+      553.0466,
+      553.0466,
+      553.0466
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      429.6399,
+      429.6399,
+      429.6399,
+      429.6399
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0.46640000000000004,
+      0.46640000000000004,
+      0.46640000000000004,
+      0.46640000000000004
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      122.94030000000001,
+      122.94030000000001,
+      122.94030000000001,
+      122.94030000000001
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      30132.2079,
+      30132.2079,
+      30132.2079,
+      30132.2079
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      30132.2079,
+      30132.2079,
+      30132.2079,
+      30132.2079
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "108": [
+      "Vốn điều lệ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      446.9457,
+      0,
+      0,
+      0
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      446.9457,
+      null,
+      null,
+      null
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      null,
+      0,
+      0,
+      0
+    ],
+    "117": [
+      "Cổ tức trả cho cổ đông",
+      null,
+      null,
+      null,
+      null
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      446.9457,
+      0,
+      0,
+      0
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      30579.1536,
+      30132.2079,
+      30132.2079,
+      30132.2079
+    ]
+  },
+  "Input| BS| Capital": {
+    "3": [
+      "CASH (Tiền mặt)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "4": [
+      "Tiền mặt, vàng bạc, đá quý",
+      null,
+      null,
+      null,
+      null
+    ],
+    "5": [
+      "Tiền gửi NHNN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "6": [
+      "Tiền gửi và cho vay tại các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "7": [
+      "Tiền gửi Nostro",
+      null,
+      null,
+      null,
+      null
+    ],
+    "8": [
+      "Tiền gửi tại TCTD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "9": [
+      "Cho vay TCTD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "10": [
+      "Dự phòng rủi ro",
+      null,
+      null,
+      null,
+      null
+    ],
+    "11": [
+      "Tổng tiền mặt (I)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      "SECURITIES (Trái phiểu & cổ phiếu)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "13": [
+      "Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "14": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "15": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "16": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "17": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "18": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "19": [
+      "Trading",
+      null,
+      null,
+      null,
+      null
+    ],
+    "20": [
+      "AFS",
+      null,
+      null,
+      null,
+      null
+    ],
+    "21": [
+      "HTM",
+      null,
+      null,
+      null,
+      null
+    ],
+    "22": [
+      "TP đặc biệt VAMC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "23": [
+      "Chứng khoán vốn",
+      1013.973,
+      1013.973,
+      1013.973,
+      1013.973
+    ],
+    "24": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "25": [
+      "AFS",
+      1013.973,
+      1013.973,
+      1013.973,
+      1013.973
+    ],
+    "26": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "27": [
+      "Dự phòng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "28": [
+      "Dự phòng Chứng khoán nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "29": [
+      "TPCP",
+      0,
+      0,
+      0,
+      0
+    ],
+    "30": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "31": [
+      "AFS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "32": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "33": [
+      "TP TCTD",
+      0,
+      0,
+      0,
+      0
+    ],
+    "34": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "35": [
+      "AFS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "36": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "37": [
+      "TP đặc biệt VAMC",
+      0,
+      0,
+      0,
+      0
+    ],
+    "38": [
+      "Dự phòng chứng khoán vốn",
+      0,
+      0,
+      0,
+      0
+    ],
+    "39": [
+      "Trading",
+      0,
+      0,
+      0,
+      0
+    ],
+    "40": [
+      "AFS",
+      0,
+      0,
+      0,
+      0
+    ],
+    "41": [
+      "HTM",
+      0,
+      0,
+      0,
+      0
+    ],
+    "42": [
+      "Góp vốn, đầu tư dài hạn",
+      1213.324,
+      1213.324,
+      1213.324,
+      1213.324
+    ],
+    "43": [
+      "Đầu tư vào công ty con",
+      1059.688,
+      1059.688,
+      1059.688,
+      1059.688
+    ],
+    "44": [
+      "Đầu tư dài hạn khác (góp vốn mua cổ phần)",
+      185.117,
+      185.117,
+      185.117,
+      185.117
+    ],
+    "45": [
+      "Dự phòng giảm giá đầu tư dài hạn",
+      -31.481,
+      -31.481,
+      -31.481,
+      -31.481
+    ],
+    "46": [
+      "Tổng trái phiếu & cổ phiếu (II)",
+      2227.297,
+      2227.297,
+      2227.297,
+      2227.297
+    ],
+    "47": [
+      "LOAN & LEASE (III)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "48": [
+      "Tổng dư nợ",
+      0,
+      0,
+      0,
+      0
+    ],
+    "49": [
+      "Cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "50": [
+      "N1",
+      null,
+      null,
+      null,
+      null
+    ],
+    "51": [
+      "NQH",
+      null,
+      null,
+      null,
+      null
+    ],
+    "52": [
+      "TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "53": [
+      "Dư phòng rủi ro tín dụng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "54": [
+      "Dự phòng rủi ro cho vay khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "55": [
+      "DPRR chung Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "56": [
+      "DPRR cụ thể Cho vay khách hàng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "57": [
+      "Dự phòng rủi ro TPDN",
+      0,
+      0,
+      0,
+      0
+    ],
+    "58": [
+      "DPRR chung TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "59": [
+      "DPRR cụ thể TPDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "60": [
+      "Dự phòng giảm giá CKDN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "61": [
+      "Tổng dư nợ tín dụng (III)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "62": [
+      "MISCELLANEOUS ASSETS (TS khác) (IV)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "63": [
+      "Các công cụ tài chính phái sinh",
+      null,
+      null,
+      null,
+      null
+    ],
+    "64": [
+      "Tài sản cố định",
+      1019.535,
+      1019.535,
+      1019.535,
+      1019.535
+    ],
+    "65": [
+      "TSCĐ hữu hình",
+      566.329,
+      566.329,
+      566.329,
+      566.329
+    ],
+    "66": [
+      "Nguyên giá",
+      1218.425,
+      1218.425,
+      1218.425,
+      1218.425
+    ],
+    "67": [
+      "Khấu hao",
+      -652.096,
+      -652.096,
+      -652.096,
+      -652.096
+    ],
+    "68": [
+      "TSCĐ vô hình",
+      453.206,
+      453.206,
+      453.206,
+      453.206
+    ],
+    "69": [
+      "Nguyên giá",
+      642.339,
+      642.339,
+      642.339,
+      642.339
+    ],
+    "70": [
+      "Khấu hao",
+      -189.133,
+      -189.133,
+      -189.133,
+      -189.133
+    ],
+    "71": [
+      "Tài sản có khác ",
+      1528.9975,
+      1528.9975,
+      1528.9975,
+      1528.9975
+    ],
+    "72": [
+      "Các khoản phải thu",
+      1101.2411000000002,
+      1101.2411000000002,
+      1101.2411000000002,
+      1101.2411000000002
+    ],
+    "73": [
+      "Các khoản lãi, phí phải thu",
+      290.018,
+      290.018,
+      290.018,
+      290.018
+    ],
+    "74": [
+      "Tài sản thuế TNDN hoãn lại",
+      0,
+      0,
+      0,
+      0
+    ],
+    "75": [
+      "Khoản phải thu từ thư tín dụng",
+      null,
+      null,
+      null,
+      null
+    ],
+    "76": [
+      "Các khoản dự thu khác",
+      141.71,
+      141.71,
+      141.71,
+      141.71
+    ],
+    "77": [
+      "Dự phòng TS khác",
+      -3.9716000000000005,
+      -3.9716000000000005,
+      -3.9716000000000005,
+      -3.9716000000000005
+    ],
+    "78": [
+      "Tổng tài sản khác (IV)",
+      2548.5325,
+      2548.5325,
+      2548.5325,
+      2548.5325
+    ],
+    "79": [
+      "TỔNG TÀI SẢN (I + II + III + IV)",
+      4775.8295,
+      4775.8295,
+      4775.8295,
+      4775.8295
+    ],
+    "80": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "81": [
+      "DEPOSIT (Huy động) ",
+      null,
+      null,
+      null,
+      null
+    ],
+    "82": [
+      "Tiền gửi Khách hàng",
+      0,
+      0,
+      0,
+      0
+    ],
+    "83": [
+      "CASA",
+      null,
+      null,
+      null,
+      null
+    ],
+    "84": [
+      "TD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "85": [
+      "Phát hành giấy tờ có giá",
+      0,
+      0,
+      0,
+      0
+    ],
+    "86": [
+      "Phát hành CD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "87": [
+      "Phát hành Trái phiếu HDB",
+      null,
+      null,
+      null,
+      null
+    ],
+    "88": [
+      "Vốn ủy thác",
+      null,
+      null,
+      null,
+      null
+    ],
+    "89": [
+      "Tổng huy động khách hàng (V)",
+      0,
+      0,
+      0,
+      0
+    ],
+    "90": [
+      "NON DEPOSIT BORROWING (Ngoài huy động)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "91": [
+      "Tiền gửi và vay các TCTD khác",
+      0,
+      0,
+      0,
+      0
+    ],
+    "92": [
+      "Tiền gửi của TCTD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "93": [
+      "KKH",
+      null,
+      null,
+      null,
+      null
+    ],
+    "94": [
+      "CKH",
+      null,
+      null,
+      null,
+      null
+    ],
+    "95": [
+      "Tiền vay TCTD",
+      null,
+      null,
+      null,
+      null
+    ],
+    "96": [
+      "Nhận vốn vay nước ngoài",
+      null,
+      null,
+      null,
+      null
+    ],
+    "97": [
+      "Tiền vay TCTD - Upas LC",
+      null,
+      null,
+      null,
+      null
+    ],
+    "98": [
+      "Các khoản nợ Chính phủ và NHNN",
+      null,
+      null,
+      null,
+      null
+    ],
+    "99": [
+      "Các công cụ tài chính phái sinh",
+      null,
+      null,
+      null,
+      null
+    ],
+    "100": [
+      "Các khoản nợ khác",
+      553.0466,
+      553.0466,
+      553.0466,
+      553.0466
+    ],
+    "101": [
+      "Các khoản lãi và phí phải trả",
+      429.6399,
+      429.6399,
+      429.6399,
+      429.6399
+    ],
+    "102": [
+      "Thuế TNDN hoãn lại phải trả",
+      0.46640000000000004,
+      0.46640000000000004,
+      0.46640000000000004,
+      0.46640000000000004
+    ],
+    "103": [
+      "Các khoản phải trả và công nợ khác",
+      122.94030000000001,
+      122.94030000000001,
+      122.94030000000001,
+      122.94030000000001
+    ],
+    "104": [
+      "Tổng nguồn NGOÀI huy động khách hàng (VI)",
+      553.0466,
+      553.0466,
+      553.0466,
+      553.0466
+    ],
+    "105": [
+      "Tổng nợ phải trả (V + VI)",
+      553.0466,
+      553.0466,
+      553.0466,
+      553.0466
+    ],
+    "106": [
+      "EQUITY CAPITAL (Vốn CSH) (VII)",
+      null,
+      null,
+      null,
+      null
+    ],
+    "107": [
+      "Vốn của tổ chức tín dụng",
+      16211.085,
+      16211.085,
+      16211.085,
+      -1638.221
+    ],
+    "108": [
+      "Vốn điều lệ",
+      16088.488,
+      16088.488,
+      16088.488,
+      0
+    ],
+    "109": [
+      "Vốn đầu tư XDCB, MSTS",
+      0.089,
+      0.089,
+      0.089,
+      0.089
+    ],
+    "110": [
+      "Thặng dư vốn CP",
+      535.956,
+      535.956,
+      535.956,
+      -970.343
+    ],
+    "111": [
+      "Cổ phiếu quỹ",
+      -413.448,
+      -413.448,
+      -413.448,
+      -667.967
+    ],
+    "112": [
+      "Quỹ của tổ chức tín dụng",
+      1589.525,
+      1589.525,
+      1589.525,
+      2128.3060000000005
+    ],
+    "113": [
+      "Chênh lệch tỷ giá hối đoái",
+      0,
+      0,
+      0,
+      0
+    ],
+    "114": [
+      "Lợi nhuận chưa phân phối",
+      446.9457,
+      446.9457,
+      446.9457,
+      446.9457
+    ],
+    "115": [
+      "Lợi nhuận giữ lại năm trước",
+      0,
+      0,
+      0,
+      0
+    ],
+    "116": [
+      "Lợi nhuận giữ lại năm nay",
+      446.9457,
+      0,
+      0,
+      0
+    ],
+    "117": [
+      "Cổ tức trả cho cổ đông",
+      0,
+      0,
+      0,
+      0
+    ],
+    "118": [
+      "Tổng Vốn CSH (VII)",
+      18247.5557,
+      18247.5557,
+      18247.5557,
+      937.0307000000005
+    ],
+    "119": [
+      "TỔNG NỢ PHẢI TRẢ VÀ VỐN CSH (V + VI + VII)",
+      18800.602300000002,
+      18800.602300000002,
+      18800.602300000002,
+      1490.0773000000004
+    ]
+  }
+}
