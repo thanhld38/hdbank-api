@@ -4,6 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ExcelService } from './excel/excel.service';
 import { ExcelController } from './excel/excel.controller';
+import { AlmService } from './alm/alm.service';
+import { AlmController } from './alm/alm.controller';
 
 @Module({
   imports: [
@@ -11,7 +13,7 @@ import { ExcelController } from './excel/excel.controller';
       dest: './uploads',
     }),
   ],
-  controllers: [AppController, ExcelController],
-  providers: [AppService, ExcelService],
+  controllers: [AppController, ExcelController, AlmController],
+  providers: [AppService, ExcelService, AlmService],
 })
 export class AppModule {}
