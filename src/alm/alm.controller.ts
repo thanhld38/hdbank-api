@@ -11,4 +11,11 @@ export class AlmController {
     const jsonData = this.almService.readJson(filePath);
     return jsonData;
   }
+
+  @Get('format')
+  getJsonFormat() {
+    const filePath = `./output.json`;
+    const jsonData = this.almService.formatJson(filePath);
+    return jsonData;
+  }
 }

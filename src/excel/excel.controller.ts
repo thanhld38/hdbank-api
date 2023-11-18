@@ -8,7 +8,7 @@ export class ExcelController {
   @Post('excel-to-json')
   async readExcel() {
     const excelData = await this.excelService.readExcel(
-      './HDBank-ALM-Reform_13Nov23.xlsx',
+      './HDBank-ALM-Final.xlsx',
     );
     this.excelService.writeJson('output.json', excelData);
     return { message: 'Conversion successful!' };
