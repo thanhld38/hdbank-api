@@ -38,6 +38,7 @@ export class ExcelService {
               type: 'row',
               level: 1,
               data: [],
+              displayInput: false,
             };
             if (row.getCell(3).value)
               data[worksheet.name][rowNumber].type = 'header';
@@ -62,7 +63,7 @@ export class ExcelService {
         });
       }
 
-      // Old data  for PL
+      // Old data for PL
       if (plSheets.indexOf(worksheet.name) >= 0) {
         data[worksheet.name] = {};
         worksheet.eachRow((row, rowNumber) => {
@@ -71,13 +72,16 @@ export class ExcelService {
               type: 'row',
               level: 1,
               data: [],
+              displayInput: false,
             };
             if (
               row.getCell(3).value &&
               row.getCell(4).value &&
               headerLetters.indexOf(row.getCell(3).value.toString()) >= 0
-            )
+            ) {
               data[worksheet.name][rowNumber].type = 'header';
+              data[worksheet.name][rowNumber].data.push(row.getCell(4).value);
+            }
             if (
               row.getCell(3).value &&
               row.getCell(4).value &&
@@ -226,6 +230,109 @@ export class ExcelService {
       }
     });
     return data;
+  }
+
+  async calculate(filePath: string, input: any): Promise<any> {
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(filePath);
+    const bsSheetName = 'ALM| BS| Input|Tỷ lệ - Tỷ trọng';
+    const plSheetName = 'ALM|PL| Input';
+    const bsSheet = workbook.getWorksheet(bsSheetName);
+    const plSheet = workbook.getWorksheet(plSheetName);
+    if (bsSheet) {
+      const bsDataInput = input.find((x) => x.name === bsSheetName);
+      bsDataInput.data.forEach((section) => {
+        section.childs.forEach((row) => {
+          const cell = bsSheet.getCell(row.key, 10);
+          cell.value = row.input;
+        });
+      });
+    } else {
+      throw new Error(`Sheet '${bsSheetName}' not found in the workbook.`);
+    }
+    if (plSheet) {
+      const plDataInput = input.find((x) => x.name === plSheetName);
+      plDataInput.data.forEach((section) => {
+        if (section.key === 'cof|vof') {
+          section.childs.forEach((row) => {
+            const cell1 = plSheet.getCell(row.key, 13);
+            cell1.value = row.input[0];
+          });
+        }
+        // const cell = bsSheet.getCell(row.key, 10);
+        // cell.value = row.input;
+      });
+    } else {
+      throw new Error(`Sheet '${plSheetName}' not found in the workbook.`);
+    }
+    await workbook.xlsx.writeFile('./issue_1074.xlsx');
+    // workbook.eachSheet((worksheet) => {
+    //   console.log(worksheet.name);
+    // });
+  }
+
+  async readPLProcess(filePath: string): Promise<any> {
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(filePath);
+    const data = {};
+    workbook.eachSheet((worksheet) => {
+      if (worksheet.name === 'ALM| PL| Process') {
+        data[worksheet.name] = {};
+        worksheet.eachRow((row, rowNumber) => {
+          if (rowNumber >= 3 && rowNumber <= 253) {
+            data[worksheet.name][rowNumber] = {
+              type: 'row',
+              level: 1,
+              data: [],
+            };
+            if (
+              row.getCell(3).value &&
+              row.getCell(4).value &&
+              headerLetters.indexOf(row.getCell(3).value.toString()) >= 0
+            )
+              data[worksheet.name][rowNumber].type = 'header';
+            if (
+              row.getCell(3).value &&
+              row.getCell(4).value &&
+              headerLetters.indexOf(row.getCell(3).value.toString()) < 0
+            )
+              data[worksheet.name][rowNumber].data.push(row.getCell(4).value);
+            if (row.getCell(3).value && row.getCell(5).value) {
+              data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
+            }
+            if (row.getCell(3).value && row.getCell(6).value) {
+              data[worksheet.name][rowNumber].level = 2;
+              data[worksheet.name][rowNumber].data.push(row.getCell(6).value);
+            }
+            if (!row.getCell(3).value && row.getCell(6).value) {
+              data[worksheet.name][rowNumber].level = 3;
+              data[worksheet.name][rowNumber].data.push(row.getCell(6).value);
+            }
+            for (let i = 8; i <= 11; i++) {
+              let cellVal = row.getCell(i).value;
+              if (cellVal && (cellVal['formula'] || cellVal['sharedFormula'])) {
+                cellVal = cellVal['result'] || 0;
+              }
+              data[worksheet.name][rowNumber].data.push(cellVal);
+            }
+          }
+        });
+      }
+    });
+    return data['ALM| PL| Process'];
+  }
+
+  async test(filePath: string): Promise<any> {
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(filePath);
+    const sheet = workbook.getWorksheet('Sheet1');
+    if (sheet) {
+      const cell = sheet.getCell(1, 1);
+      cell.value = 'hello';
+      await workbook.xlsx.writeFile('./issue_1074.xlsx');
+    } else {
+      throw new Error(`Sheet Sheet1 not found in the workbook.`);
+    }
   }
 
   writeJson(filePath: string, jsonData: any): void {

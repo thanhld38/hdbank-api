@@ -1,7 +1,7 @@
-import { Controller, Post } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 import { ExcelService } from './excel.service';
 
-@Controller('upload')
+@Controller('excel')
 export class ExcelController {
   constructor(private readonly excelService: ExcelService) {}
 
@@ -12,5 +12,11 @@ export class ExcelController {
     );
     this.excelService.writeJson('output.json', excelData);
     return { message: 'Conversion successful!' };
+  }
+
+  @Post('calculate')
+  async calculate(@Body() data: any) {
+    await this.excelService.calculate('./HDBank-ALM-Final.xlsx', data);
+    return { message: 'Calculating completed successful!' };
   }
 }
