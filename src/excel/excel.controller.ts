@@ -1,9 +1,13 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { ExcelService } from './excel.service';
+import { AlmService } from '../alm/alm.service';
 
 @Controller('excel')
 export class ExcelController {
-  constructor(private readonly excelService: ExcelService) {}
+  constructor(
+    private readonly excelService: ExcelService,
+    private readonly almService: AlmService,
+  ) {}
 
   @Post('excel-to-json')
   async readExcel() {
@@ -17,6 +21,8 @@ export class ExcelController {
   @Post('calculate')
   async calculate(@Body() data: any) {
     await this.excelService.calculate('./HDBank-ALM-Final.xlsx', data);
-    return { message: 'Calculating completed successful!' };
+    const excelData = await this.excelService.readResult('./result.xlsx');
+    const jsonData = this.almService.formatJson(excelData);
+    return jsonData;
   }
 }
