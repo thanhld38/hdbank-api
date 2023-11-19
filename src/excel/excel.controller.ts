@@ -1,4 +1,4 @@
-import { Body, Controller, Post } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
 import { ExcelService } from './excel.service';
 import { AlmService } from '../alm/alm.service';
 
@@ -16,13 +16,5 @@ export class ExcelController {
     );
     this.excelService.writeJson('output.json', excelData);
     return { message: 'Conversion successful!' };
-  }
-
-  @Post('calculate')
-  async calculate(@Body() data: any) {
-    await this.excelService.calculate('./HDBank-ALM-Final.xlsx', data);
-    const excelData = await this.excelService.readResult('./result.xlsx');
-    const jsonData = this.almService.formatJson(excelData);
-    return jsonData;
   }
 }
