@@ -23,7 +23,7 @@ export class AlmController {
   async calculate(@Body() data: any) {
     await this.almService.calculate('./HDBank-ALM-Final.xlsx', data);
     const excelData = await this.almService.readResult('./result.xlsx');
-    const jsonData = this.almService.formatJson(excelData);
+    const jsonData = this.almService.formatResult(excelData);
     return jsonData;
   }
 }
