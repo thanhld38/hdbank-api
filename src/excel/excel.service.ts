@@ -52,13 +52,19 @@ export class ExcelService {
               data[worksheet.name][rowNumber].level = 3;
               data[worksheet.name][rowNumber].data.push(row.getCell(6).value);
             }
-            for (let i = 8; i <= 11; i++) {
+            for (let i = 8; i <= 10; i++) {
               let cellVal = row.getCell(i).value;
               if (cellVal && (cellVal['formula'] || cellVal['sharedFormula'])) {
                 cellVal = cellVal['result'] || 0;
               }
               data[worksheet.name][rowNumber].data.push(cellVal);
             }
+            // Balance data
+            let cellVal = row.getCell(12).value;
+            if (cellVal && (cellVal['formula'] || cellVal['sharedFormula'])) {
+              cellVal = cellVal['result'] || 0;
+            }
+            data[worksheet.name][rowNumber].data.push(cellVal);
           }
         });
       }
