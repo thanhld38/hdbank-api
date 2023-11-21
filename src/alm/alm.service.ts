@@ -71,7 +71,7 @@ export class AlmService {
       bsDataInput.data.forEach((section) => {
         section.childs.forEach((row) => {
           const cell = bsSheet.getCell(row.key, 10);
-          cell.value = row.input;
+          cell.value = row.input || 0;
         });
       });
     } else {
