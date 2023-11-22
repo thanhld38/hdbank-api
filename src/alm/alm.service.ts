@@ -173,6 +173,9 @@ export class AlmService {
             if (row.getCell(3).value && row.getCell(5).value) {
               data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
             }
+            if (!row.getCell(3).value && row.getCell(5).value) {
+              data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
+            }
             if (row.getCell(3).value && row.getCell(6).value) {
               data[worksheet.name][rowNumber].level = 2;
               data[worksheet.name][rowNumber].data.push(row.getCell(6).value);
