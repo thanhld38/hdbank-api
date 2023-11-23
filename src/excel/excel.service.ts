@@ -147,6 +147,7 @@ export class ExcelService {
               if (cellVal !== null) {
                 data[worksheet.name][rowNumber].displayInput = true;
                 data[worksheet.name][rowNumber].displayPercentage = true;
+                cellVal = Number(cellVal) * 100;
               }
               data[worksheet.name][rowNumber].data.push(cellVal);
             }

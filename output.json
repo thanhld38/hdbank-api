@@ -31006,8 +31006,8 @@
       "level": 3,
       "data": [
         "AFS",
-        0.4530033102440838,
-        0.4530033102440838
+        45.30033102440838,
+        45.30033102440838
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31049,8 +31049,8 @@
       "level": 3,
       "data": [
         "AFS",
-        0.36439744807895585,
-        0.36439744807895585
+        36.439744807895586,
+        36.439744807895586
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31162,8 +31162,8 @@
       "level": 3,
       "data": [
         "AFS",
-        0.000277103836340441,
-        0.000277103836340441
+        0.027710383634044104,
+        0.027710383634044104
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31173,8 +31173,8 @@
       "level": 3,
       "data": [
         "HTM",
-        0.00022948759561884887,
-        0.00022948759561884887
+        0.02294875956188489,
+        0.02294875956188489
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31593,8 +31593,8 @@
       "level": 2,
       "data": [
         "Các khoản lãi, phí phải thu",
-        0.011962214583910249,
-        0.011962214583910249
+        1.196221458391025,
+        1.196221458391025
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31636,8 +31636,8 @@
       "level": 2,
       "data": [
         "Dự phòng TS khác",
-        -0.0008291198688839911,
-        -0.0008291198688839911
+        -0.08291198688839911,
+        -0.08291198688839911
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31885,8 +31885,8 @@
       "level": 2,
       "data": [
         "Các khoản lãi và phí phải trả",
-        0.007380416254336804,
-        0.007380416254336804
+        0.7380416254336805,
+        0.7380416254336805
       ],
       "displayInput": true,
       "displayPercentage": true
@@ -31907,8 +31907,8 @@
       "level": 2,
       "data": [
         "Các khoản phải trả và công nợ khác",
-        0.0021118862294517873,
-        0.0021118862294517873
+        0.21118862294517873,
+        0.21118862294517873
       ],
       "displayInput": true,
       "displayPercentage": true
