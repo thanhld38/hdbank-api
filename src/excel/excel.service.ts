@@ -158,6 +158,7 @@ export class ExcelService {
       // PL manual input
       if (worksheet.name.includes('ALM|PL| Input')) {
         data[worksheet.name] = [];
+        data['COF|VOF'] = [];
         worksheet.eachRow((row, rowNumber) => {
           if (plInputHeaderRows.indexOf(rowNumber) >= 0) {
             data[worksheet.name].push({
@@ -173,7 +174,7 @@ export class ExcelService {
             });
           }
         });
-        data[worksheet.name].push({
+        data['COF|VOF'].push({
           type: 'header',
           level: 1,
           data: ['COF|VOF', 'Nguồn'],
@@ -190,7 +191,7 @@ export class ExcelService {
               key: rowNumber,
               displayInput: true,
             });
-            data[worksheet.name][5].childs.push({
+            data['COF|VOF'][0].childs.push({
               type: 'row',
               level: 2,
               data: [row.getCell(11).value, row.getCell(12).value],

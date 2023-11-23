@@ -18,7 +18,10 @@ export class AlmService {
         data: [],
         name: sheetKey,
       };
-      if (!sheetKey.includes('ALM|PL| Input')) {
+      if (
+        !sheetKey.includes('ALM|PL| Input') &&
+        !sheetKey.includes('COF|VOF')
+      ) {
         for (const key in jsonData[sheetKey]) {
           if (jsonData[sheetKey][key].type === 'header') {
             sheetData.data.push({
@@ -59,15 +62,24 @@ export class AlmService {
     return result;
   }
 
-  async calculate(filePath: string, input: any): Promise<any> {
+  async calculate(filePath: string, request: any): Promise<any> {
     const workbook = new ExcelJS.Workbook();
     await workbook.xlsx.readFile(filePath);
+    const homeSheetName = 'HOME';
     const bsSheetName = 'ALM| BS| Input|Tỷ lệ - Tỷ trọng';
     const plSheetName = 'ALM|PL| Input';
+    const cofSheetName = 'COF|VOF';
+    const homeSheet = workbook.getWorksheet(homeSheetName);
     const bsSheet = workbook.getWorksheet(bsSheetName);
     const plSheet = workbook.getWorksheet(plSheetName);
+    if (homeSheet) {
+      const cell = bsSheet.getCell(2, 2);
+      cell.value = request.method;
+    } else {
+      throw new Error(`Sheet '${homeSheetName}' not found in the workbook.`);
+    }
     if (bsSheet) {
-      const bsDataInput = input.find((x) => x.name === bsSheetName);
+      const bsDataInput = request.data.find((x) => x.name === bsSheetName);
       bsDataInput.data.forEach((section) => {
         section.childs.forEach((row) => {
           const cell = bsSheet.getCell(row.key, 10);
@@ -78,39 +90,40 @@ export class AlmService {
       throw new Error(`Sheet '${bsSheetName}' not found in the workbook.`);
     }
     if (plSheet) {
-      const plDataInput = input.find((x) => x.name === plSheetName);
+      const plDataInput = request.data.find((x) => x.name === plSheetName);
       plDataInput.data.forEach((section) => {
-        if (section.key === 'cof|vof') {
-          section.childs.forEach((row) => {
-            const year1 = plSheet.getCell(row.key, 13);
-            year1.value = row.input ? row.input[0] / 100 : null;
-            const year2 = plSheet.getCell(row.key, 14);
-            year2.value = row.input ? row.input[1] / 100 : null;
-            const year3 = plSheet.getCell(row.key, 15);
-            year3.value = row.input ? row.input[2] / 100 : null;
-          });
-        } else {
-          section.childs.forEach((row) => {
-            const year1 = plSheet.getCell(row.key, 6);
-            year1.value = row.input
-              ? row.displayPercentage
-                ? row.input[0] / 100
-                : row.input[0]
-              : null;
-            const year2 = plSheet.getCell(row.key, 7);
-            year2.value = row.input
-              ? row.displayPercentage
-                ? row.input[1] / 100
-                : row.input[1]
-              : null;
-            const year3 = plSheet.getCell(row.key, 8);
-            year3.value = row.input
-              ? row.displayPercentage
-                ? row.input[2] / 100
-                : row.input[2]
-              : null;
-          });
-        }
+        section.childs.forEach((row) => {
+          const year1 = plSheet.getCell(row.key, 6);
+          year1.value = row.input
+            ? row.displayPercentage
+              ? row.input[0] / 100
+              : row.input[0]
+            : null;
+          const year2 = plSheet.getCell(row.key, 7);
+          year2.value = row.input
+            ? row.displayPercentage
+              ? row.input[1] / 100
+              : row.input[1]
+            : null;
+          const year3 = plSheet.getCell(row.key, 8);
+          year3.value = row.input
+            ? row.displayPercentage
+              ? row.input[2] / 100
+              : row.input[2]
+            : null;
+        });
+      });
+
+      const cofDataInput = request.data.find((x) => x.name === cofSheetName);
+      cofDataInput.data.forEach((section) => {
+        section.childs.forEach((row) => {
+          const year1 = plSheet.getCell(row.key, 13);
+          year1.value = row.input ? row.input[0] / 100 : null;
+          const year2 = plSheet.getCell(row.key, 14);
+          year2.value = row.input ? row.input[1] / 100 : null;
+          const year3 = plSheet.getCell(row.key, 15);
+          year3.value = row.input ? row.input[2] / 100 : null;
+        });
       });
     } else {
       throw new Error(`Sheet '${plSheetName}' not found in the workbook.`);

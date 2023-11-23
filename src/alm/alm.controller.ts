@@ -20,8 +20,8 @@ export class AlmController {
   }
 
   @Post('calculate')
-  async calculate(@Body() data: any) {
-    await this.almService.calculate('./HDBank-ALM-Final.xlsx', data);
+  async calculate(@Body() request: any) {
+    await this.almService.calculate('./HDBank-ALM-Final.xlsx', request);
     const excelData = await this.almService.readResult('./result.xlsx');
     const jsonData = this.almService.formatResult(excelData);
     return jsonData;
