@@ -30881,7 +30881,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "5": {
       "type": "row",
@@ -30891,7 +30892,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "6": {
       "type": "row",
@@ -30911,7 +30913,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "8": {
       "type": "row",
@@ -30921,7 +30924,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "9": {
       "type": "row",
@@ -30931,7 +30935,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "10": {
       "type": "row",
@@ -30941,7 +30946,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "11": {
       "type": "row",
@@ -30981,7 +30987,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "15": {
       "type": "row",
@@ -30991,7 +30998,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "16": {
       "type": "row",
@@ -31001,7 +31009,8 @@
         0.4530033102440838,
         0.4530033102440838
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "17": {
       "type": "row",
@@ -31021,7 +31030,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "19": {
       "type": "row",
@@ -31031,7 +31041,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "20": {
       "type": "row",
@@ -31041,7 +31052,8 @@
         0.36439744807895585,
         0.36439744807895585
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "21": {
       "type": "row",
@@ -31061,7 +31073,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "23": {
       "type": "row",
@@ -31141,7 +31154,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "31": {
       "type": "row",
@@ -31151,7 +31165,8 @@
         0.000277103836340441,
         0.000277103836340441
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "32": {
       "type": "row",
@@ -31161,7 +31176,8 @@
         0.00022948759561884887,
         0.00022948759561884887
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "33": {
       "type": "row",
@@ -31181,7 +31197,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "35": {
       "type": "row",
@@ -31191,7 +31208,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "36": {
       "type": "row",
@@ -31201,7 +31219,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "37": {
       "type": "row",
@@ -31211,7 +31230,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "38": {
       "type": "row",
@@ -31361,7 +31381,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "53": {
       "type": "row",
@@ -31421,7 +31442,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "59": {
       "type": "row",
@@ -31431,7 +31453,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "60": {
       "type": "row",
@@ -31471,7 +31494,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "64": {
       "type": "row",
@@ -31561,7 +31585,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "73": {
       "type": "row",
@@ -31571,7 +31596,8 @@
         0.011962214583910249,
         0.011962214583910249
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "74": {
       "type": "row",
@@ -31591,7 +31617,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "76": {
       "type": "row",
@@ -31601,7 +31628,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "77": {
       "type": "row",
@@ -31611,7 +31639,8 @@
         -0.0008291198688839911,
         -0.0008291198688839911
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "78": {
       "type": "row",
@@ -31700,7 +31729,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "87": {
       "type": "row",
@@ -31710,7 +31740,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "88": {
       "type": "row",
@@ -31770,7 +31801,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "94": {
       "type": "row",
@@ -31780,7 +31812,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "95": {
       "type": "row",
@@ -31790,7 +31823,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "96": {
       "type": "row",
@@ -31800,7 +31834,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "97": {
       "type": "row",
@@ -31810,7 +31845,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "98": {
       "type": "row",
@@ -31820,7 +31856,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "99": {
       "type": "row",
@@ -31830,7 +31867,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "100": {
       "type": "row",
@@ -31850,7 +31888,8 @@
         0.007380416254336804,
         0.007380416254336804
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "102": {
       "type": "row",
@@ -31860,7 +31899,8 @@
         0,
         0
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "103": {
       "type": "row",
@@ -31870,7 +31910,8 @@
         0.0021118862294517873,
         0.0021118862294517873
       ],
-      "displayInput": true
+      "displayInput": true,
+      "displayPercentage": true
     },
     "104": {
       "type": "row",
@@ -32142,7 +32183,8 @@
             "Tỷ trọng chi phí hoa hồng = phí hoa hồng / vốn TT1 đầu tư TT2"
           ],
           "key": 12,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32152,7 +32194,8 @@
             "Tỷ trọng chi phí hoa hồng = phí hoa hồng / số vốn TT2 đầu tư TT2"
           ],
           "key": 13,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32162,7 +32205,8 @@
             "Tỷ trọng chi phí hoa hồng = phí hoa hồng / số dư GTCG"
           ],
           "key": 14,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32172,7 +32216,8 @@
             "Tỷ trọng chi phí hoa hồng = phí hoa hồng / số dư vay vốn nước ngoài"
           ],
           "key": 15,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32182,7 +32227,8 @@
             "Tỷ trọng chi phí hoa hồng = phí hoa hồng / số dư FX"
           ],
           "key": 16,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         }
       ],
       "key": 11,
@@ -32296,7 +32342,8 @@
             "Chi lãi cho tiền gửi của NH phát hành Upas LC"
           ],
           "key": 27,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32306,7 +32353,7 @@
             "Giá trị điều chỉnh"
           ],
           "key": 28,
-          "displayInput": true
+          "displayInput": false
         }
       ],
       "key": 26,
@@ -32328,7 +32375,7 @@
             "- Bao gồm doanh số mua + doanh số bán\n- Điền % tăng trưởng doanh số so với năm trước"
           ],
           "key": 30,
-          "displayInput": true
+          "displayInput": false
         },
         {
           "type": "row",
@@ -32380,7 +32427,8 @@
             "MM"
           ],
           "key": 3,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32390,7 +32438,8 @@
             "TP TCTD"
           ],
           "key": 4,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32400,7 +32449,8 @@
             "TT2"
           ],
           "key": 5,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32410,7 +32460,8 @@
             "TT1"
           ],
           "key": 6,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32420,7 +32471,8 @@
             "TT1"
           ],
           "key": 7,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32430,7 +32482,8 @@
             "VCSH"
           ],
           "key": 8,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32440,7 +32493,8 @@
             "TT2"
           ],
           "key": 9,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         },
         {
           "type": "row",
@@ -32450,7 +32504,8 @@
             "TT2"
           ],
           "key": 10,
-          "displayInput": true
+          "displayInput": true,
+          "displayPercentage": true
         }
       ],
       "key": "cof|vof",

@@ -71,7 +71,7 @@ export class AlmService {
       bsDataInput.data.forEach((section) => {
         section.childs.forEach((row) => {
           const cell = bsSheet.getCell(row.key, 10);
-          cell.value = row.input || 0;
+          cell.value = row.input / 100 || 0;
         });
       });
     } else {
@@ -83,20 +83,32 @@ export class AlmService {
         if (section.key === 'cof|vof') {
           section.childs.forEach((row) => {
             const year1 = plSheet.getCell(row.key, 13);
-            year1.value = row.input ? row.input[0] : null;
+            year1.value = row.input ? row.input[0] / 100 : null;
             const year2 = plSheet.getCell(row.key, 14);
-            year2.value = row.input ? row.input[1] : null;
+            year2.value = row.input ? row.input[1] / 100 : null;
             const year3 = plSheet.getCell(row.key, 15);
-            year3.value = row.input ? row.input[2] : null;
+            year3.value = row.input ? row.input[2] / 100 : null;
           });
         } else {
           section.childs.forEach((row) => {
             const year1 = plSheet.getCell(row.key, 6);
-            year1.value = row.input ? row.input[0] : null;
+            year1.value = row.input
+              ? row.displayPercentage
+                ? row.input[0] / 100
+                : row.input[0]
+              : null;
             const year2 = plSheet.getCell(row.key, 7);
-            year2.value = row.input ? row.input[1] : null;
+            year2.value = row.input
+              ? row.displayPercentage
+                ? row.input[1] / 100
+                : row.input[1]
+              : null;
             const year3 = plSheet.getCell(row.key, 8);
-            year3.value = row.input ? row.input[2] : null;
+            year3.value = row.input
+              ? row.displayPercentage
+                ? row.input[2] / 100
+                : row.input[2]
+              : null;
           });
         }
       });
@@ -170,10 +182,7 @@ export class AlmService {
               headerLetters.indexOf(row.getCell(3).value.toString()) < 0
             )
               data[worksheet.name][rowNumber].data.push(row.getCell(4).value);
-            if (row.getCell(3).value && row.getCell(5).value) {
-              data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
-            }
-            if (!row.getCell(3).value && row.getCell(5).value) {
+            if (row.getCell(5).value) {
               data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
             }
             if (row.getCell(3).value && row.getCell(6).value) {

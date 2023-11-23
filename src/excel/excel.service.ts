@@ -94,10 +94,7 @@ export class ExcelService {
               headerLetters.indexOf(row.getCell(3).value.toString()) < 0
             )
               data[worksheet.name][rowNumber].data.push(row.getCell(4).value);
-            if (row.getCell(3).value && row.getCell(5).value) {
-              data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
-            }
-            if (!row.getCell(3).value && row.getCell(5).value) {
+            if (row.getCell(5).value) {
               data[worksheet.name][rowNumber].data.push(row.getCell(5).value);
             }
             if (row.getCell(3).value && row.getCell(6).value) {
@@ -149,6 +146,7 @@ export class ExcelService {
               }
               if (cellVal !== null) {
                 data[worksheet.name][rowNumber].displayInput = true;
+                data[worksheet.name][rowNumber].displayPercentage = true;
               }
               data[worksheet.name][rowNumber].data.push(cellVal);
             }
@@ -197,6 +195,7 @@ export class ExcelService {
               data: [row.getCell(11).value, row.getCell(12).value],
               key: rowNumber,
               displayInput: true,
+              displayPercentage: true,
             });
           }
           if (rowNumber >= 12 && rowNumber <= 16) {
@@ -206,6 +205,7 @@ export class ExcelService {
               data: [row.getCell(4).value, row.getCell(5).value],
               key: rowNumber,
               displayInput: true,
+              displayPercentage: true,
             });
           }
           if (rowNumber >= 18 && rowNumber <= 25) {
@@ -217,16 +217,35 @@ export class ExcelService {
               displayInput: true,
             });
           }
-          if (rowNumber >= 27 && rowNumber <= 28) {
+          if (rowNumber === 27) {
             data[worksheet.name][3].childs.push({
               type: 'row',
               level: 2,
               data: [row.getCell(4).value, row.getCell(5).value],
               key: rowNumber,
               displayInput: true,
+              displayPercentage: true,
             });
           }
-          if (rowNumber >= 30 && rowNumber <= 33) {
+          if (rowNumber === 28) {
+            data[worksheet.name][3].childs.push({
+              type: 'row',
+              level: 2,
+              data: [row.getCell(4).value, row.getCell(5).value],
+              key: rowNumber,
+              displayInput: false,
+            });
+          }
+          if (rowNumber === 30) {
+            data[worksheet.name][4].childs.push({
+              type: 'row',
+              level: 2,
+              data: [row.getCell(4).value, row.getCell(5).value],
+              key: rowNumber,
+              displayInput: false,
+            });
+          }
+          if (rowNumber >= 31 && rowNumber <= 33) {
             data[worksheet.name][4].childs.push({
               type: 'row',
               level: 2,
